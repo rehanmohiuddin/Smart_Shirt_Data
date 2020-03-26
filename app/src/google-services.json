@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "640810773999",
+    "firebase_url": "https://apror-blogs-1559833933388.firebaseio.com",
+    "project_id": "apror-blogs-1559833933388",
+    "storage_bucket": "apror-blogs-1559833933388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640810773999:android:7a7b6c3e9f2c712d4dda1a",
+        "android_client_info": {
+          "package_name": "com.apror.ssf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640810773999-rq58j5r52e5uldrs9mbv7v1dvbrbr6a4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apror.ssf",
+            "certificate_hash": "d72bfe2b6c30104c54ccc5e38671c53dce3ebdf7"
+          }
+        },
+        {
+          "client_id": "640810773999-utlj33pgu3dt0jdtrots3ddqbrrajpi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtKNPYj4CXmqZjElrhZZazqZyRNm50HI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640810773999-utlj33pgu3dt0jdtrots3ddqbrrajpi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

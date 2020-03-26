@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3d455b"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout
+    android:id="@+id/table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A174D"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:text="Device ID"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dev_id"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="368dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:text="Temperature"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/temp1"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Altitude Calculated"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/alt_cal"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Altitude Real"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/alt_real"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+             />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Emergency"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/temp2"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Pressure"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/pressure"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Heart Beat"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/hb"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+             />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Blood Pressure"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/bp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+             />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:text="Device ID"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:text="2"
+            android:id="@+id/dev_id1"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="right"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:text="Temperature"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/temp11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="right"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </TableRow>
+
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Altitude Calculated"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/alt_cal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Altitude Real"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/alt_real1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Pressure"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/pressure1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Heat Beat"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/hb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Blood Pressure"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/bp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:text="Device ID"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="right"
+            android:id="@+id/dev_id2"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="3dip"
+            android:text="Temperature (Outside)"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/temp12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="right"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </TableRow>
+
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Altitude Calculated"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/alt_cal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Altitude Real"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/alt_real2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Temperature (Body)"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/temp22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Pressure"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/pressure2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Heat Beat"
+            android:padding="3dip" />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/hb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow  android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Blood Pressure"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:id="@+id/bp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </TableRow>
+    <TableRow android:layout_marginTop="15dp">
+    </TableRow>
+
+</TableLayout>
+
+</ScrollView>
+
+
+
+

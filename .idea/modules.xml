@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GetJSON-master.iml" filepath="$PROJECT_DIR$/GetJSON-master.iml" group="GetJSON-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GetJSON-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/getjson/getjson.iml" filepath="$PROJECT_DIR$/getjson/getjson.iml" group="GetJSON-master/getjson" />
+    </modules>
+  </component>
+</project>
